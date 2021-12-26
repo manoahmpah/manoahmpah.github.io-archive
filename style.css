@@ -1,0 +1,283 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.style_texte{
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    
+}
+
+#Le_titre{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 0px;
+    letter-spacing: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#style_links{
+    color: black;
+    margin: 1%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+
+}
+
+#container_top_links{
+    text-align: center;
+    width: 98%;
+    background-color: black;
+    padding: 10px;
+}
+
+#image_front{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 40px;
+
+}
+
+
+/* #container_texte_img{
+    height: 40%;
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+} */
+
+#container_texte_img h1{
+    margin-left: 10%;
+}
+
+.size_container{
+    height: 130vh;
+    width: 100%;
+}
+
+ 
+    
+#size_first_img{
+    width: 100%;
+    height: 140vh;
+}
+
+#trou{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    bottom: 490px;
+    left: 60px;
+    background-color: transparent;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+#trou img{
+    opacity: 0.7;
+}
+
+.design_img_top{
+    border-radius: 20px;
+}
+
+#container_part1{
+    animation: part1imgstat 5s  ease-in;
+}
+
+@keyframes part1imgstat {
+    0%{
+        transform: translateX(113px);
+    }
+}
+
+@keyframes part1img {
+    0%{
+        transform: translateX(150px);
+    }
+}
+#img_part2{
+    position: absolute;
+    left: 700px;
+    bottom: -230px;
+    animation: part2imgstart 5s  ease-in;
+}
+
+@keyframes part2img {
+    0%{
+        transform: translateX(-150px);
+    }
+}
+
+@keyframes part2imgstart {
+    0%{
+        transform: translateX(-150.5);
+    }
+}
+
+#img_part3{
+    position: absolute;
+    left: 950px;
+    bottom: -670px;
+    animation:   part3img 5s  ease-in;
+}
+
+
+
+@keyframes part3img {
+    0%{
+        transform: translateY(-81px);
+        
+    }
+}
+@keyframes part2imgstart {
+    0%{
+        transform: translateX(-40.5px);
+    }
+}
+
+.bgctop{
+    background-color: black;
+    
+}
+
+#présentation{
+    color: white;
+    font-family: 'Shizuru', cursive;
+    font-size: 30px;
+    width: 400%;
+    position: absolute;
+    bottom: -110%;
+    left: 50%;
+}
+
+
+#position-section2{
+    position: relative;
+    top: 20px;
+}
+
+#position-section2, h2{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 70px;
+}
+
+#couleur1{
+    background-color: black;
+}
+
+#texte_custome1{
+    margin: 0px 25% 0px 25% ;
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+.imgsection{
+    width:100%;
+    height: 500px;
+    object-fit: cover;
+    opacity: 1;
+    margin-top: 10%;
+}
+
+#my_face{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 0%;
+}
+
+#container_my_face{
+    text-align: center;
+}
+
+.TITRE{
+    animation: slider 40s linear infinite;
+    font-size: 70px;
+    font-family: 'Shizuru', cursive;
+    width:max-content;
+    
+}
+
+@keyframes slider {
+    0%{
+        transform: translateX(45%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.middle{
+    text-align: center;
+}
+
+#size_SA{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 0px 25% 0px 25%;
+}
+
+.separation_pp{
+    justify-content: space-around;
+    display: flex;
+    width: 20%;
+    position: relative;
+    top: 4%;
+    
+}
+
+.separation_pp, svg{
+    position: relative;
+    top: 24px;
+}
+
+.separation_pp, h3{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.separation_ppp{
+    margin-left: 25%;
+    position: relative;
+    bottom: 7%;
+}
+
+.para_ep{
+    position: relative;
+    top: -8px;
+}
+
+#arrow_down{
+    position: relative;
+    top: 80%;
+    
+}
+
+#arrow_down img{
+    height: 10%;
+    width: 10%;
+    opacity: 1.5;
+}
+
+#size_section3{
+    height: 100vh;
+    width: 100%;
+}
+
+audio{
+    width: 1px;
+    height: 1px;
+}
