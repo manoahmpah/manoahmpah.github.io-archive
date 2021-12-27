@@ -282,3 +282,16 @@ audio{
     height: 1px;
 
 }
+
+#contactez_moi{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.616) ;
+    position: relative;
+    bottom: -15px;
+}
+
+#link_mailbox{
+    color: black;
+
+}
