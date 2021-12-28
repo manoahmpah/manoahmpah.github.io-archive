@@ -1,7 +1,6 @@
 body{
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
 }
 
 .style_texte{
@@ -250,7 +249,7 @@ a{
 }
 
 .separation_pp, h3{
-    margin-left: 15px;
+    
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .separation_ppp{
@@ -343,6 +342,11 @@ footer iframe{
 
  }
 
+ h3{
+     text-align: center;
+     margin: 0px;
+ }
+
 @media (max-width: 768px) {
     #img_part2{
         display: none;
@@ -360,13 +364,23 @@ footer iframe{
         overflow-x: hidden;
     }
     .size_SA{
-        width: 50%;
+        width: 70%;
         border-radius: 20px;
-        margin: 0px 25% 0px 25%;
+        margin: 0px 15% 0px 15%;
         border: 1px black solid;
         display:block;
         justify-content:end;
         margin-top: 5%;
+    }
+
+    #bouton{
+        width: 70%;
+        height: 50px;
+        border-radius: 20px;
+        margin: 0px 15% 0px 15%;
+        border: 1px black solid;
+        margin-top: 5%;
+        text-align: center;
     }
     .separation_pp{
         display: block;
