@@ -226,6 +226,12 @@ a{
     margin-top: 5%;
 }
 
+.size_SA:hover, h3 svg{
+    background-color: black;
+    color: white;
+    fill: white;
+}
+
 .separation_pp{
     justify-content: space-around;
     display: flex;
@@ -259,6 +265,7 @@ a{
 #arrow_down{
     position: relative;
     top: 80%;
+    left: 45%;
     
 }
 
@@ -282,9 +289,12 @@ audio{
 #contactez_moi{
     padding: 10px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.616) ;
+    border: black 1px solid;
     position: relative;
     bottom: -15px;
+}
+#contactez_moi:hover{
+    background-color: #FFD700;
 }
 
 #link_mailbox{
@@ -299,3 +309,78 @@ audio{
 .links:hover{
     color: royalblue;
 }
+
+#titrelyjm{
+    transform: translateY(20%);
+}
+
+footer{
+    border-top: black 1px dashed;
+}
+
+footer iframe{
+    margin-top: 5%;
+}
+
+#bouton{
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0px 25% 0px 25%;
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+#bouton svg{
+    transform: translate(1140%, 48%);
+
+}
+
+@media (max-width: 768px) {
+    #img_part2{
+        display: none;
+    }
+    #img_part3{
+        display: none;
+    }
+    #container_part1 img{
+        width: 250%;
+    }
+    #présentation{
+        font-size: medium;
+    }
+}
+
+/* @media (min-width: 768px) {
+   body{
+       min-width: 768px;
+       overflow-x: hidden;
+   }
+
+    #img_part2{
+        display: none;
+    }
+    #img_part3{
+        display: none;
+    }
+    #container_part1 img{
+        width: 250%;
+    }
+
+
+   #présentation{
+       font-size: medium;
+   }
+
+   .TITRE{
+    font-size: 40px;
+    font-family: 'Shizuru', cursive;
+    width:max-content;
+    
+}
+#PARCOURS{
+    margin: 10%;
+}
+} */
