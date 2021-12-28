@@ -65,14 +65,15 @@ a{
 }
 
 #trou{
-    width: 100px;
+    width: 25%;
     height: 150px;
     position: absolute;
-    bottom: 490px;
+    bottom: 45%;
     left: 60px;
     background-color: transparent;
     opacity: 0.7;
     z-index: 1;
+    text-align: center;
 }
 
 #trou img{
@@ -149,8 +150,8 @@ a{
     font-size: 30px;
     width: 400%;
     position: absolute;
-    bottom: -110%;
-    left: 50%;
+    bottom: 20%;
+    left: -70%;
 }
 
 
@@ -200,6 +201,7 @@ a{
     font-size: 70px;
     font-family: 'Shizuru', cursive;
     width:max-content;
+    overflow-x: hidden;
     
 }
 
@@ -236,10 +238,7 @@ a{
     justify-content: space-around;
     display: flex;
     width: 100%;
-    position: relative;
-    
-    
-    
+    position: relative;  
 }
 
 .separation_pp svg{
@@ -328,13 +327,12 @@ footer iframe{
     border-radius: 20px;
     margin: 0px 25% 0px 25%;
     border: 1px black solid;
-    display: flex;
-    justify-content: space-between;
     margin-top: 5%;
+    text-align: center;
 }
 
 #bouton svg{
-    transform: translate(1140%, 48%);
+    transform: translateY(30%);
 
 }
 
@@ -351,6 +349,26 @@ footer iframe{
     #présentation{
         font-size: medium;
     }
+    .TITRE{
+        overflow-x: hidden;
+    }
+    .size_SA{
+        width: 50%;
+        border-radius: 20px;
+        margin: 0px 25% 0px 25%;
+        border: 1px black solid;
+        display:block;
+        justify-content:end;
+        margin-top: 5%;
+    }
+    .separation_pp{
+        display: block;
+    }
+
+    .separation_pp {
+        display: block;
+    }
+       
 }
 
 /* @media (min-width: 768px) {
@@ -384,3 +402,4 @@ footer iframe{
     margin: 10%;
 }
 } */
+
