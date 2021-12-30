@@ -16,12 +16,19 @@
     <title>Porfolio Manoah</title>
 </head>
 <body>
-    </div>
+    <div class="btn">
+        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 24 24" width="30px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14l-6-6z"/></svg>
+      </div>
     <section>
         <div class="bgctop">
             <h1 class="style_texte" id="Le_titre">Mon PortFolio</h1>
         </div>
-        
+        <div id="Container_nav">
+            <a href="#PARCOURS">PARCOURS</a>
+            <a href="#MON_EXPERIENCE">MON_EXPERIENCE</a>
+            <a href="#EDUCATION">EDUCATION</a>
+            <a href="#CV">CV & LETTRE DE MOTIVATION</a>
+        </div>
     </section>
     <section id="couleur1">
         
@@ -40,9 +47,9 @@
         </div>
     </section>
     
-    <section class="size_container" id="position-section2">
+    <section class="size_container" id="PARCOURS">
         <div >
-            <h2 class="TITRE" id="PARCOURS">~ MON PARCOURS ~ MON PARCOURS ~ MON PARCOURS ~ MON PARCOURS ~ MON PARCOURS ~</h2>
+            <h2 class="TITRE">~ MON PARCOURS ~ MON PARCOURS ~ MON PARCOURS ~ MON PARCOURS ~ MON PARCOURS ~</h2>
             <p id="texte_custome1">
                 De nature curieuse, ma détermination m'a toujours amenée à acquérir de nouvelles compétences, et à apprendre toujours plus
                 Ma détermination ma aussi ammenée à decouvrir le monde du codage informatique. C'est donc pour cela que je peux vous communiquer mon envie
@@ -54,8 +61,8 @@
         
     </section class="size_container" >
     <img class="imgsection" src="./images/pexels-daria-obymaha-1684149.jpg" alt="">
-    <section>
-        <h2 class="TITRE" id="MON_EXPERIENCE">~ MON EXPERIENCE ~ MON EXPERIENCE ~ MON EXPERIENCE ~ MON EXPERIENCE ~</h2>
+    <section id="MON_EXPERIENCE">
+        <h2 class="TITRE" >~ MON EXPERIENCE ~ MON EXPERIENCE ~ MON EXPERIENCE ~ MON EXPERIENCE ~</h2>
         <div id="container_my_face">
             <img id="my_face" src="./images/IMG_20200726_115311.jpg" alt="">
         </div>
@@ -76,9 +83,9 @@
         </a>
     </section>
     <img class="imgsection" src="./images/pexels-burst-373892.jpg" alt="">
-        <section class="size_container">
+        <section class="size_container" id="EDUCATION">
             
-                <h2 class="TITRE" >~ EDUCATION ~ EDUCATION ~ EDUCATION ~ EDUCATION ~ EDUCATION ~ EDUCATION ~ EDUCATION ~ EDUCATION </h2>
+                <h2 class="TITRE">~ EDUCATION ~ EDUCATION ~ EDUCATION ~ EDUCATION ~ EDUCATION ~ EDUCATION ~ EDUCATION ~ EDUCATION </h2>
             
             <div class="size_SA">
                 <div class="separation_pp">
@@ -121,15 +128,15 @@
         </section>
         
         <img class="imgsection" src="./images/pexels-vojtech-okenka-392018.jpg" alt="">
-        <section class="size_container">
-            <h2 class="TITRE" >
+        <section class="size_container" id="CV">
+            <h2 class="TITRE">
                 ~ CV & LETTRE DE MOTIVATION ~ CV & LETTRE DE MOTIVATION ~ CV & LETTRE DE MOTIVATION ~ CV & LETTRE DE MOTIVATION ~ CV & LETTRE DE MOTIVATION ~
             </h2>
             <div id="CVetLETTRE">
                 <div class="container_CV_et_LETTRE">
                     <h3>CV</h3>
                     <p>voici mon cv bonne leture, s'il y a y a besoin, posez moi des questions.</p>
-                    <a class="links" download="">CURRICULUM VITAE</a>
+                    <a class="links" href="./Documents/CV.pdf">CURRICULUM VITAE</a>
                 </div>
                 <div id="ligne">
 
@@ -137,7 +144,7 @@
                 <div class="container_CV_et_LETTRE">
                     <h3>LETTRE DE MOTIVATION</h3>
                     <p>voici ma lettre de motivation, bonne leture, s'il y a y a besoin, posez moi des questions.</p>
-                    <a class="links" download="">LETTRE DE MOTIVATION</a>
+                    <a class="links" href="./Documents/lettre_de_motivation.pdf" download="">LETTRE DE MOTIVATION</a>
                 </div>
             </div>
         </section>
@@ -145,9 +152,19 @@
         
         
         <footer id="footer">
-           
+           <div>
+               <a href="https://www.pexels.com/license/"><h1>certificat pour les photos</h1></a>
+               <a href="https://icons8.com/icon/">logo icon by Icons8</a>
+           </div>
+           <div>
+                <h1>Mes reseaux</h1>
+                <a href=""><img src="https://img.icons8.com/ios/50/000000/github--v2.png"/> GitHub</a>
+                <a href=""> <img src="https://img.icons8.com/ios/50/000000/instagram.png"/> Instagram</a>
+                <a href=""></a>
+           </div>
         </footer>
     </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
